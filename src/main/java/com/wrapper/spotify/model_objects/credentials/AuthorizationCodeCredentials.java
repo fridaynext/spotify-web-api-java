@@ -17,6 +17,8 @@ public class AuthorizationCodeCredentials extends AbstractModelObject {
   private final Integer expiresIn;
   private final String refreshToken;
 
+  // Adding a comment to test how fork pushes show up on activity graph
+
   private AuthorizationCodeCredentials(final Builder builder) {
     super(builder);
 
